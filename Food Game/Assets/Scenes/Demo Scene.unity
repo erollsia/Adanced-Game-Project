@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -167,6 +168,45 @@ RectTransform:
   m_AnchoredPosition: {x: 2.54, y: -3.54}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &38706347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2463849131073488839, guid: 28674237dedd06442b1bb463b1f153f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1713336425}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &38706348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38706347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6afa365ac0295409069c969c920fb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 6
+  jumpSpeed: 8
+  gravity: 0
+--- !u!143 &38706349
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38706347}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &99592700
 GameObject:
   m_ObjectHideFlags: 0
@@ -1340,7 +1380,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1550563796}
   - component: {fileID: 1550563795}
-  - component: {fileID: 1550563794}
   - component: {fileID: 1550563793}
   - component: {fileID: 1550563792}
   - component: {fileID: 1550563797}
@@ -1360,14 +1399,6 @@ AudioListener:
   m_GameObject: {fileID: 1550563791}
   m_Enabled: 1
 --- !u!124 &1550563793
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550563791}
-  m_Enabled: 1
---- !u!92 &1550563794
 Behaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
