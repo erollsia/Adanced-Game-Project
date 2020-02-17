@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8877553389190604928}
-  - component: {fileID: 3440051760132591553}
+  - component: {fileID: -211639422637339374}
   m_Layer: 0
-  m_Name: testSpawnPoint
+  m_Name: smallSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3440051760132591553
+--- !u!114 &-211639422637339374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,8 +40,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 783929194165763801}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a64011ddc0dedbf45bde95470f655557, type: 3}
+  m_Script: {fileID: 11500000, guid: 1fc9eae789f38fa43b02d660d01abbe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testEnemy: {fileID: 627121298027687619, guid: 5da08d70bdc50e74fb333a51621b7f85,
+  smallEnemy: {fileID: 627121298027687619, guid: 5da08d70bdc50e74fb333a51621b7f85,
     type: 3}
+  enemyLimit: 0
