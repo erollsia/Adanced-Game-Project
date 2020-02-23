@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 82c2908d5dc39ec47a13e6a1345ffbb6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -654256483754048920
+    second: Slaming Bun_0
+  - first:
+      213: -7318934225172956890
+    second: Slaming Bun_1
+  - first:
+      213: 1167598116556251062
+    second: Slaming Bun_2
+  - first:
+      213: -9102416062418440383
+    second: Slaming Bun_3
+  - first:
+      213: 7183685467132813959
+    second: Slaming Bun_4
+  - first:
+      213: -2289375003380158848
+    second: Slaming Bun_5
+  - first:
+      213: -9023801983306883875
+    second: Slaming Bun_6
+  - first:
+      213: -5644382550811071706
+    second: Slaming Bun_7
+  - first:
+      213: 2198684224294800018
+    second: Slaming Bun_8
+  - first:
+      213: 5767061349027902824
+    second: Slaming Bun_9
+  - first:
+      213: 6124547737669584444
+    second: Slaming Bun_10
+  - first:
+      213: 7830273531479979158
+    second: Slaming Bun_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slaming Bun_0
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 207
+        width: 394
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee83b12ae52993499b8b58316ed7b69
+      internalID: -654256483754048920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slaming Bun_1
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 207
+        width: 494
+        height: 817
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2684f9a0978bb144a36ed661165dfcf
+      internalID: -7318934225172956890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slaming Bun_2
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 207
+        width: 589
+        height: 752
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c2d481ca0493c46b2f7e96bfd6d5b0
+      internalID: 1167598116556251062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slaming Bun_3
+      rect:
+        serializedVersion: 2
+        x: 3897
+        y: 207
+        width: 668
+        height: 670
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3207304c230984497b75d2baaa44fa
+      internalID: -9102416062418440383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slaming Bun_4
+      rect:
+        serializedVersion: 2
+        x: 5001
+        y: 214
+        width: 744
+        height: 587
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d13fb253ddb8bc4483f6c7b0b4666e2
+      internalID: 7183685467132813959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slaming Bun_5
+      rect:
+        serializedVersion: 2
+        x: 6080
+        y: 207
+        width: 798
+        height: 494
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0d81fe39de2b248a26b748f078337c
+      internalID: -2289375003380158848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slaming Bun_6
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 207
+        width: 826
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73922bc26ee56b64dab0b604b7398dca
+      internalID: -9023801983306883875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slaming Bun_7
+      rect:
+        serializedVersion: 2
+        x: 8480
+        y: 207
+        width: 798
+        height: 494
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4786798657dd0834f86e0b32001b7303
+      internalID: -5644382550811071706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slaming Bun_8
+      rect:
+        serializedVersion: 2
+        x: 9800
+        y: 214
+        width: 745
+        height: 587
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dbdc34f8fb6b5448cc8db5cd00a40f
+      internalID: 2198684224294800018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slaming Bun_9
+      rect:
+        serializedVersion: 2
+        x: 11097
+        y: 207
+        width: 668
+        height: 670
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65c74e754cb47b43963329206771992
+      internalID: 5767061349027902824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slaming Bun_10
+      rect:
+        serializedVersion: 2
+        x: 12449
+        y: 207
+        width: 589
+        height: 752
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c908ff2bfb8d05f4b8fdf3185e3c63c2
+      internalID: 6124547737669584444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slaming Bun_11
+      rect:
+        serializedVersion: 2
+        x: 13830
+        y: 207
+        width: 493
+        height: 817
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129b33cee09772d4baf93787a38f05d2
+      internalID: 7830273531479979158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
