@@ -6,9 +6,12 @@ public class EnemyMove : MonoBehaviour
 {
     public GameObject target; // Enemy's target
     public float moveSpeed = 5; // Enemy move speed
+    Animator animator;
+
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player");
+        animator = GetComponent<Animator>();
     }
 
     void Update()
