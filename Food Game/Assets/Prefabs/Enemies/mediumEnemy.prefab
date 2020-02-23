@@ -9,24 +9,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4828770657742983948}
-<<<<<<< HEAD
-  - component: {fileID: 5120948615021754136}
-=======
   - component: {fileID: -2864848768506031413}
   - component: {fileID: 1046162205436483872}
   - component: {fileID: 4828770657742983951}
   - component: {fileID: 4828770657742983950}
->>>>>>> 8f83d44dfdb2b1b7f07697269e300d987dab6962
   - component: {fileID: 9081588323854890250}
   - component: {fileID: 4799093228320156955}
   - component: {fileID: 6126242400480384088}
   m_Layer: 0
   m_Name: mediumEnemy
-<<<<<<< HEAD
-  m_TagString: Enemy
-=======
   m_TagString: enemy
->>>>>>> 8f83d44dfdb2b1b7f07697269e300d987dab6962
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,10 +37,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!61 &5120948615021754136
-BoxCollider2D:
-=======
 --- !u!61 &-2864848768506031413
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -98,7 +86,6 @@ Rigidbody2D:
   m_Constraints: 0
 --- !u!33 &4828770657742983951
 MeshFilter:
->>>>>>> 8f83d44dfdb2b1b7f07697269e300d987dab6962
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -176,48 +163,17 @@ SpriteRenderer:
   m_SortingLayerID: -663666641
   m_SortingLayer: 2
   m_SortingOrder: 0
-<<<<<<< HEAD
-  m_Sprite: {fileID: 6872434207943751691, guid: df12c38a98713aa4286f7eee463661f2,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 9.9800005, y: 4.96}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!95 &6126242400480384088
-Animator:
-  serializedVersion: 3
-=======
 --- !u!114 &9081588323854890250
 MonoBehaviour:
->>>>>>> 8f83d44dfdb2b1b7f07697269e300d987dab6962
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4828770657742983987}
   m_Enabled: 1
-<<<<<<< HEAD
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c73c1a2cec14f7443b7ddb8c776929f7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
-=======
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 823589e3f1cd2a54581acab524f88343, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2463849131073488839, guid: 28674237dedd06442b1bb463b1f153f7, type: 3}
   moveSpeed: 5
->>>>>>> 8f83d44dfdb2b1b7f07697269e300d987dab6962
