@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1046162205436483872}
   - component: {fileID: 9081588323854890250}
   - component: {fileID: 4799093228320156955}
+  - component: {fileID: 1454373335879466065}
   m_Layer: 0
   m_Name: mediumEnemy
   m_TagString: enemy
@@ -146,3 +147,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1454373335879466065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828770657742983987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b2b546e8392fa44aca3aa18df25d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxEHealth: 50
+  pDamage: 10

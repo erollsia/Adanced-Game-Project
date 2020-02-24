@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -7567159494989390966}
   - component: {fileID: 1596487445901517221}
   - component: {fileID: 8231597585644442605}
+  - component: {fileID: -8960550808236942475}
   m_Layer: 8
   m_Name: smallEnemy
   m_TagString: enemy
@@ -146,3 +147,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-8960550808236942475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627121298027687619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b2b546e8392fa44aca3aa18df25d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxEHealth: 50
+  pDamage: 10
