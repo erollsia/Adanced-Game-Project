@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 3522393601376866826}
   - component: {fileID: 2054063112942110288}
   - component: {fileID: 9165663809899468758}
+  - component: {fileID: 6327169994979990554}
+  - component: {fileID: -3539856334271654662}
   m_Layer: 8
   m_Name: testPlayer
   m_TagString: Player
@@ -182,3 +184,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.48, y: 2.27}
   m_EdgeRadius: 0
+--- !u!114 &6327169994979990554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4929949623549834729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11b4c71447083614bb32547a52c6dac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-3539856334271654662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4929949623549834729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b294b6b39b1414e8a2f71b6add283c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackTime: 0
+  startTimeAttack: 0.3
+  attackLocation: {fileID: 0}
+  attackRange: 0.19
+  enemies:
+    serializedVersion: 2
+    m_Bits: 1024

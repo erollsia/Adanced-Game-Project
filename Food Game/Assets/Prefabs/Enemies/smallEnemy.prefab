@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 4929949623549834729, guid: 1768ac7f4f1630a418bbfd85151a4b7c, type: 3}
-  moveSpeed: 5
+  moveSpeed: 2.5
 --- !u!61 &-7567159494989390966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -159,5 +159,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18b2b546e8392fa44aca3aa18df25d4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxEHealth: 50
-  pDamage: 10
+  maxEHealth: 10
+  pDamage: 5
