@@ -1,0 +1,33 @@
+public class Dash : MonoBehaviour {
+ 
+    public Vector forwardDash;
+ 
+     public const float totalDashTime = 1;
+     public float Distance = 10;
+     public float Stop = .1;
+     float currentDash = totalDashTime;
+     float dashSpeed = 10;
+     CharacterController controller;
+ 
+  
+     {
+         controller = GetComponent<CharacterController>();
+     }
+ 
+     void Update () {
+         if (Input.GetButtonDown("Dash"))
+         {
+             currentDash = 0;                
+         }
+         if(currentDash < totalDashTime)
+         {
+             forwardDash = transform.forward * Distance;
+             currentDash += Stop;
+         }
+         else
+         {
+             forwardDash = Vector3.zero;
+         }
+         controller.Move(forwardDash * Time.deltaTime * dashSpeed);
+     }
+ }
