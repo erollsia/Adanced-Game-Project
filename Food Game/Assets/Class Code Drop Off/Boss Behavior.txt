@@ -5,15 +5,15 @@ using UnityEngine.UI;
 
 public class Boss : MonoBehaviour {
 
-    public int health;
-    public int damage;
+    public int Bhealth;
+    public int Bdamage;
     private float timeBtwDamage = 1.5f;
 
 
     public Animator camAnim;
     public Slider healthBar;
     private Animator anim;
-    public bool isDead;
+    public bool Dead;
 
     private void Start()
     {
@@ -23,15 +23,13 @@ public class Boss : MonoBehaviour {
     private void Update()
     {
 
-        if (health <= 25) {
+        if (Bhealth <= 25) {
             anim.SetTrigger("stageTwo");
         }
 
-        if (health <= 0) {
+        if (Bhealth <= 0) {
             anim.SetTrigger("death");
         }
-
-        // give the player some time to recover before taking more damage !
         if (timeBtwDamage > 0) {
             timeBtwDamage -= Time.deltaTime;
         }
@@ -41,11 +39,10 @@ public class Boss : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // deal the player damage ! 
-        if (other.CompareTag("Player") && isDead == false) {
+        if (other.CompareTag("Player") && Dead == false) {
             if (timeBtwDamage <= 0) {
                 camAnim.SetTrigger("shake");
-                other.GetComponent<Player>().health -= damage;
+                other.GetComponent<Player>().health -= Bdamage;
             }
         } 
     }
