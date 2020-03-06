@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2844953121785282949}
   - component: {fileID: 2137445250439185592}
   - component: {fileID: 1309986223698346222}
+  - component: {fileID: 6351880548601461334}
   m_Layer: 0
   m_Name: CherryBombPowerUp
   m_TagString: Untagged
@@ -96,3 +97,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthPickup: {fileID: 631324504971626765}
   healthItemLimit: 0
+--- !u!136 &6351880548601461334
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631324504971626765}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.6537924
+  m_Height: 21.010044
+  m_Direction: 1
+  m_Center: {x: 0.8433604, y: 0.46601415, z: 0}
