@@ -7,13 +7,14 @@ public class PlayerHealth : MonoBehaviour
 {
     float timer; // Used to measure time since last attack.
     public int maxHealth = 100;
-    int health = 100;
+    int health;
     public float iFrames = 0.5f; //Duration of invicibility frames after being hit
     public Text healthText; // Temporary health meter
     bool touching;
     
-
     public int damage = 10; //For test purposes. Will expand when enemies have individual damage values.
+
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class PlayerHealth : MonoBehaviour
         health = maxHealth; //Resets starting health total
 
         healthText.text = "HP: " + maxHealth.ToString();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
