@@ -4,22 +4,21 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
-    public GameObject target; // Enemy's target
+    private Transform target; // Enemy's target
     public float moveSpeed = 5; // Enemy move speed
     Animator animator;
 
     void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player");
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        Vector3 targetDir = target.transform.position - transform.position;
-        float angle = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg - 90f;
-        Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, q, 180);
-        transform.Translate(Vector3.up * Time.deltaTime * moveSpeed);
+        if(Vector2.Distance(transform.position, target.position) > 1)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+        }
     }
 }
