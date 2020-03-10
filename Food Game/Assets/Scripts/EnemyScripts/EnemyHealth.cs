@@ -30,7 +30,7 @@ public class EnemyHealth : MonoBehaviour
 
     void onTrigerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "attack")
+        if (other.gameObject.tag == "Player")
         {
             eHealth -= pDamage;
         }

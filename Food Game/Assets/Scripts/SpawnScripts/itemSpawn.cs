@@ -19,7 +19,7 @@ public class itemSpawn : MonoBehaviour
         while (healthItem < healthItemLimit)
         {
             GameObject.Instantiate(healthPickup, transform.position, Quaternion.identity);
-            yield return new WaitForSeconds(10.0f); // Spawn enemy every x seconds
+            yield return new WaitForSeconds(10.0f); // Spawn every x seconds
             ++healthItem;
         }
     }

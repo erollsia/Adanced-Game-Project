@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1596487445901517221}
   - component: {fileID: 8231597585644442605}
   - component: {fileID: -8960550808236942475}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: smallEnemy
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 823589e3f1cd2a54581acab524f88343, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 4929949623549834729, guid: 1768ac7f4f1630a418bbfd85151a4b7c, type: 3}
   moveSpeed: 2.5
+  stoppingDistance: 1
 --- !u!61 &-7567159494989390966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62,10 +62,10 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.055061817, y: 3.138756}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 6.58, y: 6.6128902}
     newSize: {x: 6.58, y: 6.6128902}
     adaptiveTilingThreshold: 0.5
@@ -73,7 +73,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 5.896475, y: 3.4735656}
   m_EdgeRadius: 0
 --- !u!50 &1596487445901517221
 Rigidbody2D:
@@ -132,9 +132,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -663666641
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 6872434207943751691, guid: 6e813effdd587c24589748a6c67d0fd5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -146,7 +146,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!114 &-8960550808236942475
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ public class playerAttack : MonoBehaviour
 
     public Transform attackLocation;
     public float attackRange;
-    public LayerMask enemies;
+    public LayerMask Enemy;
     
     // Start is called before the first frame update
     private void Start()
@@ -26,7 +26,7 @@ public class playerAttack : MonoBehaviour
             if (Input.GetButton("Fire1"))
             {
                 anim.SetBool("Is_attacking", true);
-                Collider2D[] damage = Physics2D.OverlapCircleAll(attackLocation.position, attackRange, enemies);
+                Collider2D[] damage = Physics2D.OverlapCircleAll(attackLocation.position, attackRange, Enemy);
 
                 for(int i = 0; i < damage.Length; i++)
                 {
