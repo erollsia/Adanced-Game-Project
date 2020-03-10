@@ -55,11 +55,6 @@ public class PlayerHealth : MonoBehaviour
         {
             touching = true;
         }
-        // When player touches pickups
-        if (other.gameObject.tag == "Pick Up")
-        {
-            Destroy(other.gameObject);
-        }
     }
 
     //sets back to false when no enemies touching player
