@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2844953121785282949}
   - component: {fileID: 2137445250439185592}
-  - component: {fileID: 1309986223698346222}
-  - component: {fileID: 6351880548601461334}
+  - component: {fileID: -7393342536617694816}
+  - component: {fileID: 8576890251931391820}
   m_Layer: 0
   m_Name: CherryBombPowerUp
-  m_TagString: Untagged
+  m_TagString: Pick Up
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &1309986223698346222
+--- !u!114 &-7393342536617694816
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,22 +92,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 631324504971626765}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3a969f93780c584291860e74e07737b, type: 3}
+  m_Script: {fileID: 11500000, guid: 04c1bd69b59d21948bfe3d9479fea826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPickup: {fileID: 631324504971626765}
-  healthItemLimit: 0
---- !u!136 &6351880548601461334
-CapsuleCollider:
+--- !u!70 &8576890251931391820
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631324504971626765}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.45896435
-  m_Height: 15.878017
-  m_Direction: 1
-  m_Center: {x: 0.98591805, y: -0.7694757, z: 0}
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 8.6}
+  m_Size: {x: 11.25, y: 17.2}
+  m_Direction: 0
