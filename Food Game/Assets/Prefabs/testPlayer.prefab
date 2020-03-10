@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 9165663809899468758}
   - component: {fileID: 6327169994979990554}
   - component: {fileID: -3539856334271654662}
+  - component: {fileID: 1543910347}
   m_Layer: 8
   m_Name: testPlayer
   m_TagString: Player
@@ -145,7 +146,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4929949623549834729}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -212,6 +213,24 @@ MonoBehaviour:
   startTimeAttack: 0.3
   attackLocation: {fileID: 0}
   attackRange: 0.19
-  enemies:
+  Enemy:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 0
+--- !u!114 &1543910347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4929949623549834729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2ed28c99204364eaefda5be698ab47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pattyText: {fileID: 0}
+  pattyReq: 3
+  bunText: {fileID: 0}
+  bunReq: 2
+  cheeseText: {fileID: 0}
+  cheeseReq: 5
