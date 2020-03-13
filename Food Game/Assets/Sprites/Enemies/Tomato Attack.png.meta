@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: db60e225b8386ae4fa290eca51f247df
+guid: 49e28074339883a41aa982d288e5f20a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -707344274741778194
-    second: Hurt Walking_0
+      213: -769850763500994495
+    second: Tomato Attack_0
   - first:
-      213: 5729914949003861574
-    second: Hurt Walking_1
+      213: -6498907424957637959
+    second: Tomato Attack_1
   - first:
-      213: -5979453272314581350
-    second: Hurt Walking_2
+      213: -5393295649992035775
+    second: Tomato Attack_2
   - first:
-      213: 1960300684484726802
-    second: Hurt Walking_3
-  - first:
-      213: -4811326887801211069
-    second: Hurt Walking_4
-  - first:
-      213: 7748056840310266463
-    second: Hurt Walking_5
-  - first:
-      213: -6873033082832582269
-    second: Hurt Walking_6
-  - first:
-      213: 3472453283067425734
-    second: Hurt Walking_7
+      213: 5932986692463065901
+    second: Tomato Attack_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -96,7 +84,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -110,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hurt Walking_0
+      name: Tomato Attack_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 49
-        width: 434
-        height: 622
+        x: 130
+        y: 111
+        width: 461
+        height: 498
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c983f5e364e61194fbeccd72dd412be5
-      internalID: -707344274741778194
+      spriteID: 04027835333cbd5469c1db3ba17dd9a9
+      internalID: -769850763500994495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_1
+      name: Tomato Attack_1
       rect:
         serializedVersion: 2
-        x: 851
-        y: 24
-        width: 424
-        height: 636
+        x: 850
+        y: 86
+        width: 470
+        height: 548
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ab36c0f3bcedda4d8f85894a5d4150a
-      internalID: 5729914949003861574
+      spriteID: ccdb7510d39f7354bbd4ad73628f2c76
+      internalID: -6498907424957637959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_2
+      name: Tomato Attack_2
       rect:
         serializedVersion: 2
-        x: 1583
-        y: 4
-        width: 382
-        height: 667
+        x: 1574
+        y: 57
+        width: 453
+        height: 606
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbe8c1eded8f39c46a3992253282b927
-      internalID: -5979453272314581350
+      spriteID: 7e1a642310d131c469df8c069d6f4d49
+      internalID: -5393295649992035775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_3
+      name: Tomato Attack_3
       rect:
         serializedVersion: 2
-        x: 2316
+        x: 2302
         y: 44
-        width: 408
-        height: 646
+        width: 436
+        height: 632
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,92 +175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78f98ee1eb0514442b905427c452a2bf
-      internalID: 1960300684484726802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hurt Walking_4
-      rect:
-        serializedVersion: 2
-        x: 3023
-        y: 49
-        width: 435
-        height: 625
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe8b0f801ae500c4389a822a9edaa5d8
-      internalID: -4811326887801211069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hurt Walking_5
-      rect:
-        serializedVersion: 2
-        x: 3731
-        y: 27
-        width: 424
-        height: 633
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3c49941c8a6d3c469485b7ff96b7c1f
-      internalID: 7748056840310266463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hurt Walking_6
-      rect:
-        serializedVersion: 2
-        x: 4462
-        y: 4
-        width: 383
-        height: 667
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccbcb0e34512c244fb47186700391ce5
-      internalID: -6873033082832582269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hurt Walking_7
-      rect:
-        serializedVersion: 2
-        x: 5196
-        y: 44
-        width: 408
-        height: 646
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58651f850aadb814a8a0f41b9c3069ee
-      internalID: 3472453283067425734
+      spriteID: 0782de91a0862d949b5ba7bfd21809a3
+      internalID: 5932986692463065901
       vertices: []
       indices: 
       edges: []

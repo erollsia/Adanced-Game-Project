@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: db60e225b8386ae4fa290eca51f247df
+guid: b9e6672d3df17ff44896c3192b2e1d29
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -707344274741778194
-    second: Hurt Walking_0
+      213: -8249292796201654003
+    second: Bun Death_0
   - first:
-      213: 5729914949003861574
-    second: Hurt Walking_1
+      213: -7505082925787270249
+    second: Bun Death_1
   - first:
-      213: -5979453272314581350
-    second: Hurt Walking_2
+      213: -8832483949941881742
+    second: Bun Death_2
   - first:
-      213: 1960300684484726802
-    second: Hurt Walking_3
+      213: -8307533202646446006
+    second: Bun Death_3
   - first:
-      213: -4811326887801211069
-    second: Hurt Walking_4
+      213: 4185046669339213096
+    second: Bun Death_4
   - first:
-      213: 7748056840310266463
-    second: Hurt Walking_5
+      213: 3386366946662551391
+    second: Bun Death_5
   - first:
-      213: -6873033082832582269
-    second: Hurt Walking_6
+      213: -4987935813175089338
+    second: Bun Death_6
   - first:
-      213: 3472453283067425734
-    second: Hurt Walking_7
+      213: -92900547959547301
+    second: Bun Death_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -106,17 +106,41 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hurt Walking_0
+      name: Bun Death_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 49
-        width: 434
-        height: 622
+        x: 27
+        y: 66
+        width: 281
+        height: 588
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c983f5e364e61194fbeccd72dd412be5
-      internalID: -707344274741778194
+      spriteID: d09263298ef948d80800000000000000
+      internalID: -8249292796201654003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_1
+      name: Bun Death_1
       rect:
         serializedVersion: 2
-        x: 851
-        y: 24
-        width: 424
-        height: 636
+        x: 744
+        y: 65
+        width: 416
+        height: 527
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ab36c0f3bcedda4d8f85894a5d4150a
-      internalID: 5729914949003861574
+      spriteID: 793b996b7d698d790800000000000000
+      internalID: -7505082925787270249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_2
+      name: Bun Death_2
       rect:
         serializedVersion: 2
-        x: 1583
-        y: 4
-        width: 382
-        height: 667
+        x: 1470
+        y: 69
+        width: 540
+        height: 416
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbe8c1eded8f39c46a3992253282b927
-      internalID: -5979453272314581350
+      spriteID: 274006fd4a6bc6580800000000000000
+      internalID: -8832483949941881742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_3
+      name: Bun Death_3
       rect:
         serializedVersion: 2
-        x: 2316
-        y: 44
-        width: 408
-        height: 646
+        x: 2282
+        y: 77
+        width: 574
+        height: 329
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78f98ee1eb0514442b905427c452a2bf
-      internalID: 1960300684484726802
+      spriteID: a40de704196b5bc80800000000000000
+      internalID: -8307533202646446006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_4
+      name: Bun Death_4
       rect:
         serializedVersion: 2
-        x: 3023
-        y: 49
-        width: 435
-        height: 625
+        x: 2929
+        y: 75
+        width: 574
+        height: 374
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +232,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe8b0f801ae500c4389a822a9edaa5d8
-      internalID: -4811326887801211069
+      spriteID: 82d356eb5c5441a30800000000000000
+      internalID: 4185046669339213096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_5
+      name: Bun Death_5
       rect:
         serializedVersion: 2
-        x: 3731
-        y: 27
-        width: 424
-        height: 633
+        x: 3717
+        y: 77
+        width: 581
+        height: 307
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3c49941c8a6d3c469485b7ff96b7c1f
-      internalID: 7748056840310266463
+      spriteID: f5f02f6dbcacefe20800000000000000
+      internalID: 3386366946662551391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_6
+      name: Bun Death_6
       rect:
         serializedVersion: 2
-        x: 4462
-        y: 4
-        width: 383
-        height: 667
+        x: 4417
+        y: 72
+        width: 588
+        height: 329
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccbcb0e34512c244fb47186700391ce5
-      internalID: -6873033082832582269
+      spriteID: 647ef3d1eca47cab0800000000000000
+      internalID: -4987935813175089338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_7
+      name: Bun Death_7
       rect:
         serializedVersion: 2
-        x: 5196
-        y: 44
-        width: 408
-        height: 646
+        x: 5160
+        y: 75
+        width: 587
+        height: 281
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +295,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58651f850aadb814a8a0f41b9c3069ee
-      internalID: 3472453283067425734
+      spriteID: b5a9e6f9173f5bef0800000000000000
+      internalID: -92900547959547301
       vertices: []
       indices: 
       edges: []

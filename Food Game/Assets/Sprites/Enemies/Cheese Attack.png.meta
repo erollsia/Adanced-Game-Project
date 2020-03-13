@@ -1,31 +1,64 @@
 fileFormatVersion: 2
-guid: db60e225b8386ae4fa290eca51f247df
+guid: 36f08b8deedb3844cba8b01d701c2ea8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -707344274741778194
-    second: Hurt Walking_0
+      213: -2975534885822482779
+    second: Cheese Attack_0
   - first:
-      213: 5729914949003861574
-    second: Hurt Walking_1
+      213: 3806249072891273877
+    second: Cheese Attack_1
   - first:
-      213: -5979453272314581350
-    second: Hurt Walking_2
+      213: -4151334359399419763
+    second: Cheese Attack_1
   - first:
-      213: 1960300684484726802
-    second: Hurt Walking_3
+      213: -4517780264080126403
+    second: Cheese Attack_2
   - first:
-      213: -4811326887801211069
-    second: Hurt Walking_4
+      213: 7561384723184602361
+    second: Cheese Attack_4
   - first:
-      213: 7748056840310266463
-    second: Hurt Walking_5
+      213: -3880106392000162637
+    second: Cheese Attack_3
   - first:
-      213: -6873033082832582269
-    second: Hurt Walking_6
+      213: 1431582223095415414
+    second: Cheese Attack_6
   - first:
-      213: 3472453283067425734
-    second: Hurt Walking_7
+      213: -8288296557757019362
+    second: Cheese Attack_4
+  - first:
+      213: 5550193547579951554
+    second: Cheese Attack_5
+  - first:
+      213: -6240734957385957655
+    second: Cheese Attack_9
+  - first:
+      213: 2089538625533073040
+    second: Cheese Attack_6
+  - first:
+      213: 9191566113817820609
+    second: Cheese Attack_11
+  - first:
+      213: -3038691853402714330
+    second: Cheese Attack_8
+  - first:
+      213: 1043437700362990528
+    second: Cheese Attack_13
+  - first:
+      213: -487713008033256153
+    second: Cheese Attack_14
+  - first:
+      213: 1942301957762048429
+    second: Cheese Attack_15
+  - first:
+      213: 1374297372895305627
+    second: Cheese Attack_16
+  - first:
+      213: -8585896314282771764
+    second: Cheese Attack_17
+  - first:
+      213: -8288296557757019362
+    second: Cheese Attack_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,7 +117,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -96,7 +129,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -110,13 +143,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hurt Walking_0
+      name: Cheese Attack_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 49
-        width: 434
-        height: 622
+        x: 134
+        y: 114
+        width: 948
+        height: 703
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c983f5e364e61194fbeccd72dd412be5
-      internalID: -707344274741778194
+      spriteID: 61de13da5a2917f47a775f8493cc65cc
+      internalID: -2975534885822482779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_1
+      name: Cheese Attack_1
       rect:
         serializedVersion: 2
-        x: 851
-        y: 24
-        width: 424
-        height: 636
+        x: 1311
+        y: 116
+        width: 971
+        height: 800
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ab36c0f3bcedda4d8f85894a5d4150a
-      internalID: 5729914949003861574
+      spriteID: 7df12c94d8f5c6a4789ce3d8626cf595
+      internalID: 3806249072891273877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_2
+      name: Cheese Attack_2
       rect:
         serializedVersion: 2
-        x: 1583
-        y: 4
-        width: 382
-        height: 667
+        x: 2526
+        y: 122
+        width: 956
+        height: 833
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbe8c1eded8f39c46a3992253282b927
-      internalID: -5979453272314581350
+      spriteID: ae857ffdf7959d842a5b13390521246b
+      internalID: -4517780264080126403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_3
+      name: Cheese Attack_3
       rect:
         serializedVersion: 2
-        x: 2316
-        y: 44
-        width: 408
-        height: 646
+        x: 3726
+        y: 116
+        width: 948
+        height: 891
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78f98ee1eb0514442b905427c452a2bf
-      internalID: 1960300684484726802
+      spriteID: ce09658734893b44ca6ba4dac66bda2b
+      internalID: -3880106392000162637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_4
+      name: Cheese Attack_4
       rect:
         serializedVersion: 2
-        x: 3023
-        y: 49
-        width: 435
-        height: 625
+        x: 4911
+        y: 122
+        width: 1042
+        height: 892
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe8b0f801ae500c4389a822a9edaa5d8
-      internalID: -4811326887801211069
+      spriteID: e59a6f51bded86245a3034b042425d26
+      internalID: 7561384723184602361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_5
+      name: Cheese Attack_5
       rect:
         serializedVersion: 2
-        x: 3731
-        y: 27
-        width: 424
-        height: 633
+        x: 6111
+        y: 107
+        width: 1097
+        height: 892
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3c49941c8a6d3c469485b7ff96b7c1f
-      internalID: 7748056840310266463
+      spriteID: 485e2aa4a0b32b14091747376adad007
+      internalID: 5550193547579951554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_6
+      name: Cheese Attack_6
       rect:
         serializedVersion: 2
-        x: 4462
-        y: 4
-        width: 383
-        height: 667
+        x: 7311
+        y: 116
+        width: 1105
+        height: 875
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccbcb0e34512c244fb47186700391ce5
-      internalID: -6873033082832582269
+      spriteID: cc1e125f68d3012498e6bbad616ab5a1
+      internalID: 1431582223095415414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_7
+      name: Cheese Attack_7
       rect:
         serializedVersion: 2
-        x: 5196
-        y: 44
-        width: 408
-        height: 646
+        x: 8511
+        y: 107
+        width: 1089
+        height: 852
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +304,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58651f850aadb814a8a0f41b9c3069ee
-      internalID: 3472453283067425734
+      spriteID: be46a58d9adec1b4e97c66905ed2a8f2
+      internalID: -8288296557757019362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheese Attack_8
+      rect:
+        serializedVersion: 2
+        x: 9711
+        y: 99
+        width: 978
+        height: 813
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26147cb729627445b53d8af6fd17152
+      internalID: -3038691853402714330
       vertices: []
       indices: 
       edges: []

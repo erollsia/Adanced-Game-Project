@@ -1,31 +1,22 @@
 fileFormatVersion: 2
-guid: db60e225b8386ae4fa290eca51f247df
+guid: 8ce9d36817948944883d2b251ab7dc78
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -707344274741778194
-    second: Hurt Walking_0
+      213: 5770816097256504135
+    second: Patty Attack_0
   - first:
-      213: 5729914949003861574
-    second: Hurt Walking_1
+      213: 1388225717486200597
+    second: Patty Attack_1
   - first:
-      213: -5979453272314581350
-    second: Hurt Walking_2
+      213: -8262507525305297648
+    second: Patty Attack_2
   - first:
-      213: 1960300684484726802
-    second: Hurt Walking_3
+      213: -252599510897223333
+    second: Patty Attack_3
   - first:
-      213: -4811326887801211069
-    second: Hurt Walking_4
-  - first:
-      213: 7748056840310266463
-    second: Hurt Walking_5
-  - first:
-      213: -6873033082832582269
-    second: Hurt Walking_6
-  - first:
-      213: 3472453283067425734
-    second: Hurt Walking_7
+      213: -6271361874199795477
+    second: Patty Attack_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,7 +75,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -96,7 +87,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -110,13 +101,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hurt Walking_0
+      name: Patty Attack_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 49
-        width: 434
-        height: 622
+        x: 159
+        y: 169
+        width: 538
+        height: 309
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +115,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c983f5e364e61194fbeccd72dd412be5
-      internalID: -707344274741778194
+      spriteID: 8e248228a4e6fcb42a769641a55fdbe4
+      internalID: 5770816097256504135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_1
+      name: Patty Attack_1
       rect:
         serializedVersion: 2
-        x: 851
-        y: 24
-        width: 424
-        height: 636
+        x: 882
+        y: 168
+        width: 535
+        height: 357
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ab36c0f3bcedda4d8f85894a5d4150a
-      internalID: 5729914949003861574
+      spriteID: bd82db7123dffaa4abb9d3c911aeeae2
+      internalID: 1388225717486200597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_2
+      name: Patty Attack_2
       rect:
         serializedVersion: 2
-        x: 1583
-        y: 4
-        width: 382
-        height: 667
+        x: 1561
+        y: 168
+        width: 576
+        height: 390
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbe8c1eded8f39c46a3992253282b927
-      internalID: -5979453272314581350
+      spriteID: 2783270c33db13c4d92e93ecc3ed6d62
+      internalID: -8262507525305297648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_3
+      name: Patty Attack_3
       rect:
         serializedVersion: 2
-        x: 2316
-        y: 44
-        width: 408
-        height: 646
+        x: 2226
+        y: 168
+        width: 630
+        height: 361
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78f98ee1eb0514442b905427c452a2bf
-      internalID: 1960300684484726802
+      spriteID: dee9e829f687da9498fd18bf0b33038b
+      internalID: -252599510897223333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt Walking_4
+      name: Patty Attack_4
       rect:
         serializedVersion: 2
-        x: 3023
-        y: 49
-        width: 435
-        height: 625
+        x: 3001
+        y: 168
+        width: 576
+        height: 335
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,71 +199,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe8b0f801ae500c4389a822a9edaa5d8
-      internalID: -4811326887801211069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hurt Walking_5
-      rect:
-        serializedVersion: 2
-        x: 3731
-        y: 27
-        width: 424
-        height: 633
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3c49941c8a6d3c469485b7ff96b7c1f
-      internalID: 7748056840310266463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hurt Walking_6
-      rect:
-        serializedVersion: 2
-        x: 4462
-        y: 4
-        width: 383
-        height: 667
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccbcb0e34512c244fb47186700391ce5
-      internalID: -6873033082832582269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hurt Walking_7
-      rect:
-        serializedVersion: 2
-        x: 5196
-        y: 44
-        width: 408
-        height: 646
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58651f850aadb814a8a0f41b9c3069ee
-      internalID: 3472453283067425734
+      spriteID: 5e3efaada4a5e2d4f9216403708b1957
+      internalID: -6271361874199795477
       vertices: []
       indices: 
       edges: []
