@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 9081588323854890250}
   - component: {fileID: 4799093228320156955}
   - component: {fileID: 1454373335879466065}
+  - component: {fileID: -1685653201063578437}
   m_Layer: 0
   m_Name: Patty
   m_TagString: enemy
@@ -161,3 +162,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxEHealth: 30
   pDamage: 15
+--- !u!95 &-1685653201063578437
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828770657742983987}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c73c1a2cec14f7443b7ddb8c776929f7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

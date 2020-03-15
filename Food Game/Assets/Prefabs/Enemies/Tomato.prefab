@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 1596487445901517221}
   - component: {fileID: 8231597585644442605}
   - component: {fileID: -8960550808236942475}
+  - component: {fileID: -5966135871915356340}
   m_Layer: 10
-  m_Name: smallEnemy
+  m_Name: Tomato
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -161,3 +162,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxEHealth: 10
   pDamage: 5
+--- !u!95 &-5966135871915356340
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627121298027687619}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 64895e684750ea941a96a0ca3e842d7a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
