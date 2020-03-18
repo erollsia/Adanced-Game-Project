@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: d52b8daeccf0b05468aafb6db61594ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 969441360512742892
+    second: L1 Boss Movement_0
+  - first:
+      213: -1148916129742759268
+    second: L1 Boss Movement_1
+  - first:
+      213: 7546187507540528309
+    second: L1 Boss Movement_2
+  - first:
+      213: -3124903247763357487
+    second: L1 Boss Movement_3
+  - first:
+      213: 3898878536554974236
+    second: L1 Boss Movement_4
+  - first:
+      213: -2185946802465342812
+    second: L1 Boss Movement_5
+  - first:
+      213: -6732256245570353258
+    second: L1 Boss Movement_6
+  - first:
+      213: -4231709995470378022
+    second: L1 Boss Movement_7
+  - first:
+      213: -1547101309534500870
+    second: L1 Boss Movement_8
+  - first:
+      213: 8461902268065214326
+    second: L1 Boss Movement_9
+  - first:
+      213: -805571215734144164
+    second: L1 Boss Movement_10
+  - first:
+      213: 2981144096977090217
+    second: L1 Boss Movement_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: L1 Boss Movement_0
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 421
+        height: 610
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 88}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff91ffa1c83e0841b1a512d3c1b27e9
+      internalID: 969441360512742892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Movement_1
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 0
+        width: 438
+        height: 548
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b71fbc97d142924998ce7e3b36e2dca
+      internalID: -1148916129742759268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Movement_2
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 0
+        width: 456
+        height: 618
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d50cdfb7333604aabf2276ca6a5e39
+      internalID: 7546187507540528309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Movement_3
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 0
+        width: 457
+        height: 689
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c866e3db4c589439e3c2bb856313d8
+      internalID: -3124903247763357487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Movement_4
+      rect:
+        serializedVersion: 2
+        x: 4272
+        y: 0
+        width: 447
+        height: 750
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc28b27d96cd4e4091232f24f24ac3b
+      internalID: 3898878536554974236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Movement_5
+      rect:
+        serializedVersion: 2
+        x: 5263
+        y: 0
+        width: 474
+        height: 846
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857528c89406f684c8d898f4acb68e91
+      internalID: -2185946802465342812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Movement_6
+      rect:
+        serializedVersion: 2
+        x: 6272
+        y: 31
+        width: 447
+        height: 824
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a705a9dd7e82ea4cbbe99309abbcf33
+      internalID: -6732256245570353258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Movement_7
+      rect:
+        serializedVersion: 2
+        x: 7228
+        y: 0
+        width: 544
+        height: 855
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e030751dd67816b42a9bce6a25033f41
+      internalID: -4231709995470378022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Movement_8
+      rect:
+        serializedVersion: 2
+        x: 8263
+        y: 0
+        width: 483
+        height: 925
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186deb2d305505e40898f31224d8664c
+      internalID: -1547101309534500870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Movement_9
+      rect:
+        serializedVersion: 2
+        x: 9246
+        y: 0
+        width: 456
+        height: 934
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed1ad841775d3a4b97d74d3a8e0edd7
+      internalID: 8461902268065214326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Movement_10
+      rect:
+        serializedVersion: 2
+        x: 10254
+        y: 0
+        width: 553
+        height: 917
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208761ec931e930469ee0ab1408beac7
+      internalID: -805571215734144164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Movement_11
+      rect:
+        serializedVersion: 2
+        x: 11254
+        y: 0
+        width: 474
+        height: 943
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd2b2b4a4e606c45bb81f9e8b01109c
+      internalID: 2981144096977090217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

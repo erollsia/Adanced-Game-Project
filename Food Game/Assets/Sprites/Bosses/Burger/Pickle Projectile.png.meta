@@ -1,64 +1,25 @@
 fileFormatVersion: 2
-guid: 36f08b8deedb3844cba8b01d701c2ea8
+guid: 5e42ea3c17e3dc746805ee4d3367b6ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2975534885822482779
-    second: Cheese Attack_0
+      213: 7892902527484627300
+    second: Pickle Projectile_0
   - first:
-      213: 3806249072891273877
-    second: Cheese Attack_1
+      213: -3126279791167872124
+    second: Pickle Projectile_1
   - first:
-      213: -4151334359399419763
-    second: Cheese Attack_1
+      213: 147098038448396518
+    second: Pickle Projectile_2
   - first:
-      213: -4517780264080126403
-    second: Cheese Attack_2
+      213: 5823328892053714841
+    second: Pickle Projectile_3
   - first:
-      213: 7561384723184602361
-    second: Cheese Attack_4
+      213: 3841207645870509531
+    second: Pickle Projectile_4
   - first:
-      213: -3880106392000162637
-    second: Cheese Attack_3
-  - first:
-      213: 1431582223095415414
-    second: Cheese Attack_6
-  - first:
-      213: -8288296557757019362
-    second: Cheese Attack_4
-  - first:
-      213: 5550193547579951554
-    second: Cheese Attack_5
-  - first:
-      213: -6240734957385957655
-    second: Cheese Attack_9
-  - first:
-      213: 2089538625533073040
-    second: Cheese Attack_6
-  - first:
-      213: 9191566113817820609
-    second: Cheese Attack_11
-  - first:
-      213: -3038691853402714330
-    second: Cheese Attack_8
-  - first:
-      213: 1043437700362990528
-    second: Cheese Attack_13
-  - first:
-      213: -487713008033256153
-    second: Cheese Attack_14
-  - first:
-      213: 1942301957762048429
-    second: Cheese Attack_15
-  - first:
-      213: 1374297372895305627
-    second: Cheese Attack_16
-  - first:
-      213: -8585896314282771764
-    second: Cheese Attack_17
-  - first:
-      213: -8288296557757019362
-    second: Cheese Attack_7
+      213: 6704456654770053289
+    second: Pickle Projectile_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -117,7 +78,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -129,7 +90,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -143,118 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cheese Attack_0
+      name: Pickle Projectile_0
       rect:
         serializedVersion: 2
-        x: 134
-        y: 114
-        width: 948
-        height: 703
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61de13da5a2917f47a775f8493cc65cc
-      internalID: -2975534885822482779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cheese Attack_1
-      rect:
-        serializedVersion: 2
-        x: 1311
-        y: 116
-        width: 971
-        height: 800
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7df12c94d8f5c6a4789ce3d8626cf595
-      internalID: 3806249072891273877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cheese Attack_2
-      rect:
-        serializedVersion: 2
-        x: 2526
-        y: 122
-        width: 956
-        height: 833
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae857ffdf7959d842a5b13390521246b
-      internalID: -4517780264080126403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cheese Attack_3
-      rect:
-        serializedVersion: 2
-        x: 3726
-        y: 116
-        width: 948
-        height: 891
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce09658734893b44ca6ba4dac66bda2b
-      internalID: -3880106392000162637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cheese Attack_4
-      rect:
-        serializedVersion: 2
-        x: 4911
-        y: 122
-        width: 1042
-        height: 892
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e59a6f51bded86245a3034b042425d26
-      internalID: 7561384723184602361
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cheese Attack_5
-      rect:
-        serializedVersion: 2
-        x: 6111
+        x: 111
         y: 107
-        width: 1097
-        height: 892
+        width: 499
+        height: 506
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 485e2aa4a0b32b14091747376adad007
-      internalID: 5550193547579951554
+      spriteID: bc87a9fa1905e3f49aaa32fd60299b09
+      internalID: 7892902527484627300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cheese Attack_6
+      name: Pickle Projectile_1
       rect:
         serializedVersion: 2
-        x: 7311
-        y: 116
-        width: 1105
-        height: 875
+        x: 830
+        y: 113
+        width: 500
+        height: 494
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +139,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc1e125f68d3012498e6bbad616ab5a1
-      internalID: 1431582223095415414
+      spriteID: 6ca49ecfb52b76a42ac6f2c79e944327
+      internalID: -3126279791167872124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cheese Attack_7
+      name: Pickle Projectile_2
       rect:
         serializedVersion: 2
-        x: 8511
+        x: 1551
+        y: 115
+        width: 500
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc9391b4f95b36419bfb9f3abb9c99e
+      internalID: 147098038448396518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickle Projectile_3
+      rect:
+        serializedVersion: 2
+        x: 2271
         y: 107
-        width: 1089
-        height: 852
+        width: 499
+        height: 506
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be46a58d9adec1b4e97c66905ed2a8f2
-      internalID: -8288296557757019362
+      spriteID: c4d335819f4ac3343ba2bbb29d995a80
+      internalID: 5823328892053714841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cheese Attack_8
+      name: Pickle Projectile_4
       rect:
         serializedVersion: 2
-        x: 9711
-        y: 99
-        width: 978
-        height: 813
+        x: 2990
+        y: 113
+        width: 500
+        height: 494
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,8 +202,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d26147cb729627445b53d8af6fd17152
-      internalID: -3038691853402714330
+      spriteID: ea7e401be5acaa54aa778c7abec9d073
+      internalID: 3841207645870509531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickle Projectile_5
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 113
+        width: 500
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27cdca4a37ac0c408c22f26083874f6
+      internalID: 6704456654770053289
       vertices: []
       indices: 
       edges: []

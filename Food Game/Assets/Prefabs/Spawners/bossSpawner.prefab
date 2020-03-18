@@ -43,11 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950ac9004b0c56448a0d503d0792e13d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bossEnemy: {fileID: 0}
+  bossEnemy: {fileID: 131069152097972400, guid: c6399f942a578b148a6840a4529c339a,
+    type: 3}
   sGoal: 0
   mGoal: 0
   lGoal: 0
-  sDefeat: 0
-  mDefeat: 0
-  lDefeat: 0
   enemyLimit: 0

@@ -1,0 +1,1087 @@
+fileFormatVersion: 2
+guid: f27f0440e849f0940b3d5c0049531c4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1048316140202998954
+    second: L1 Boss Death_0
+  - first:
+      213: 7491372104165814033
+    second: L1 Boss Death_1
+  - first:
+      213: 8216493612911100853
+    second: L1 Boss Death_2
+  - first:
+      213: -5081056001463032244
+    second: L1 Boss Death_3
+  - first:
+      213: 134560315569478822
+    second: L1 Boss Death_4
+  - first:
+      213: -3288168842435798167
+    second: L1 Boss Death_5
+  - first:
+      213: -902210780302148641
+    second: L1 Boss Death_6
+  - first:
+      213: -7286414505220265449
+    second: L1 Boss Death_7
+  - first:
+      213: 5948455036435865498
+    second: L1 Boss Death_8
+  - first:
+      213: -4719001975776671971
+    second: L1 Boss Death_9
+  - first:
+      213: -6718879055288559571
+    second: L1 Boss Death_10
+  - first:
+      213: -3269985267643087985
+    second: L1 Boss Death_11
+  - first:
+      213: -2399703996581224406
+    second: L1 Boss Death_12
+  - first:
+      213: -213202459611842586
+    second: L1 Boss Death_13
+  - first:
+      213: -5352447910038356227
+    second: L1 Boss Death_14
+  - first:
+      213: 5167419777772582314
+    second: L1 Boss Death_15
+  - first:
+      213: -7535207071824457531
+    second: L1 Boss Death_16
+  - first:
+      213: -2078699888109269384
+    second: L1 Boss Death_17
+  - first:
+      213: -872637300594372829
+    second: L1 Boss Death_18
+  - first:
+      213: -4708069604706366594
+    second: L1 Boss Death_19
+  - first:
+      213: 7346050729236346827
+    second: L1 Boss Death_20
+  - first:
+      213: -6367747216822833441
+    second: L1 Boss Death_21
+  - first:
+      213: -4775148556779876048
+    second: L1 Boss Death_22
+  - first:
+      213: 4584337918789095019
+    second: L1 Boss Death_23
+  - first:
+      213: -132728443409743685
+    second: L1 Boss Death_24
+  - first:
+      213: 5539628905863927919
+    second: L1 Boss Death_25
+  - first:
+      213: 7194198616273725856
+    second: L1 Boss Death_26
+  - first:
+      213: -8826097770468810038
+    second: L1 Boss Death_27
+  - first:
+      213: 8776513712968080321
+    second: L1 Boss Death_28
+  - first:
+      213: -4092835571857678567
+    second: L1 Boss Death_29
+  - first:
+      213: -977776277976166338
+    second: L1 Boss Death_30
+  - first:
+      213: -7078981807954972439
+    second: L1 Boss Death_31
+  - first:
+      213: -5118207358930405228
+    second: L1 Boss Death_32
+  - first:
+      213: 8544370548664659075
+    second: L1 Boss Death_33
+  - first:
+      213: -2025374240578471683
+    second: L1 Boss Death_34
+  - first:
+      213: -6619774941240752791
+    second: L1 Boss Death_35
+  - first:
+      213: 2599618314938671963
+    second: L1 Boss Death_36
+  - first:
+      213: -7513321338661030056
+    second: L1 Boss Death_37
+  - first:
+      213: -7322474626702662868
+    second: L1 Boss Death_38
+  - first:
+      213: 2645189147746843434
+    second: L1 Boss Death_39
+  - first:
+      213: 7149717658678447805
+    second: L1 Boss Death_40
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: L1 Boss Death_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 60
+        width: 526
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d70a9f59e7a7fb469ed5a3d26d2e9e3
+      internalID: 1048316140202998954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_1
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 0
+        width: 558
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93f6e6b1ace79f4f9343891e74a9187
+      internalID: 7491372104165814033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_2
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 0
+        width: 546
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682bcfd87e886174799acc10a7b0d811
+      internalID: 8216493612911100853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_3
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 560
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bea09f0d122554ab36effd97ce2677
+      internalID: -5081056001463032244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_4
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 576
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b452f4ce1dd5a24989775a985b93013
+      internalID: 134560315569478822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_5
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 0
+        width: 594
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9c95f58951b45459b80f563ca98f9b
+      internalID: -3288168842435798167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_6
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 0
+        width: 523
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f15effab5c511409b331bf96e20d9c
+      internalID: -902210780302148641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_7
+      rect:
+        serializedVersion: 2
+        x: 5134
+        y: 0
+        width: 523
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03cf3a00a5cebc47af6f36852131b0c
+      internalID: -7286414505220265449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_8
+      rect:
+        serializedVersion: 2
+        x: 5838
+        y: 3
+        width: 549
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52f0798e59c6644988988fa792cd03d
+      internalID: 5948455036435865498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_9
+      rect:
+        serializedVersion: 2
+        x: 6559
+        y: 0
+        width: 551
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c12492f06e3ea469ec3344dbcc9cf2
+      internalID: -4719001975776671971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_10
+      rect:
+        serializedVersion: 2
+        x: 7285
+        y: 0
+        width: 567
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab310a2d5050a04ab92fb30def66ee1
+      internalID: -6718879055288559571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_11
+      rect:
+        serializedVersion: 2
+        x: 7985
+        y: 0
+        width: 580
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fac03ee939ed241a2d1658ee667305
+      internalID: -3269985267643087985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_12
+      rect:
+        serializedVersion: 2
+        x: 8703
+        y: 0
+        width: 597
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30f557f59b314a4a963854466db7027
+      internalID: -2399703996581224406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_13
+      rect:
+        serializedVersion: 2
+        x: 9460
+        y: 0
+        width: 521
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bd56c56ab8eb548a2a79589c959cab
+      internalID: -213202459611842586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_14
+      rect:
+        serializedVersion: 2
+        x: 10181
+        y: 0
+        width: 516
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db8e4712deb9e14ebedc126e69817ac
+      internalID: -5352447910038356227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_15
+      rect:
+        serializedVersion: 2
+        x: 10874
+        y: 0
+        width: 562
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebcdaf54b6a85f4f8b90e213ae9f8a6
+      internalID: 5167419777772582314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_16
+      rect:
+        serializedVersion: 2
+        x: 11614
+        y: 0
+        width: 542
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920a10dc5aa0cf14eaa4adfa39816459
+      internalID: -7535207071824457531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_17
+      rect:
+        serializedVersion: 2
+        x: 12332
+        y: 0
+        width: 564
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2948c3e50a0cdcd4a8fb6b419bc9b6f1
+      internalID: -2078699888109269384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_18
+      rect:
+        serializedVersion: 2
+        x: 13013
+        y: 0
+        width: 579
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c55382b42dadc2429b4b353670df30d
+      internalID: -872637300594372829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_19
+      rect:
+        serializedVersion: 2
+        x: 13745
+        y: 0
+        width: 593
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac982d9e4e2e9045aa422c10156da4e
+      internalID: -4708069604706366594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_20
+      rect:
+        serializedVersion: 2
+        x: 14487
+        y: 0
+        width: 530
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77955e50b0b3a2d46b82de7f98ec5ba3
+      internalID: 7346050729236346827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_21
+      rect:
+        serializedVersion: 2
+        x: 15223
+        y: 0
+        width: 512
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aa278acd3f80c48a3646a9b7402e91
+      internalID: -6367747216822833441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_22
+      rect:
+        serializedVersion: 2
+        x: 15905
+        y: 0
+        width: 572
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba88acfbb719ade44ba7c3de8787d316
+      internalID: -4775148556779876048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_23
+      rect:
+        serializedVersion: 2
+        x: 16645
+        y: 0
+        width: 549
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f524ad76fd64b7d4cb0637d45e24164a
+      internalID: 4584337918789095019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_24
+      rect:
+        serializedVersion: 2
+        x: 17361
+        y: 0
+        width: 567
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82a50f7258e0864e820ebcd6ac5f438
+      internalID: -132728443409743685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_25
+      rect:
+        serializedVersion: 2
+        x: 18050
+        y: 0
+        width: 580
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d55fd55a32dacd4e8931030c534cc65
+      internalID: 5539628905863927919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_26
+      rect:
+        serializedVersion: 2
+        x: 18783
+        y: 0
+        width: 594
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01f12f6808fccf4895e0ce50f088be9
+      internalID: 7194198616273725856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_27
+      rect:
+        serializedVersion: 2
+        x: 19575
+        y: 0
+        width: 456
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8831d62a74bd99e44b7e0ad20eb5826e
+      internalID: -8826097770468810038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_28
+      rect:
+        serializedVersion: 2
+        x: 20292
+        y: 0
+        width: 452
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ad6fcdae5b9e24f975514199a01afb
+      internalID: 8776513712968080321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_29
+      rect:
+        serializedVersion: 2
+        x: 20953
+        y: 0
+        width: 565
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df65f373babbac0489a0d7873b01f004
+      internalID: -4092835571857678567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_30
+      rect:
+        serializedVersion: 2
+        x: 21690
+        y: 0
+        width: 544
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d34fe48c5f73d42a2e5b6dd90406fc
+      internalID: -977776277976166338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_31
+      rect:
+        serializedVersion: 2
+        x: 22409
+        y: 0
+        width: 564
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c626f7da9d7fffb4fbe19a90b84c7604
+      internalID: -7078981807954972439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_32
+      rect:
+        serializedVersion: 2
+        x: 23095
+        y: 0
+        width: 576
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227ec8d06289ec7468cc78571fd1dabe
+      internalID: -5118207358930405228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_33
+      rect:
+        serializedVersion: 2
+        x: 23823
+        y: 0
+        width: 599
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52f05af92d89104a8fe56e779cfd5eb
+      internalID: 8544370548664659075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_34
+      rect:
+        serializedVersion: 2
+        x: 24579
+        y: 0
+        width: 512
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbbdbea0a89a8646869b1db1025d958
+      internalID: -2025374240578471683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_35
+      rect:
+        serializedVersion: 2
+        x: 25335
+        y: 0
+        width: 450
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd3e128fcba9874ab1f7e6c76decdbd
+      internalID: -6619774941240752791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_36
+      rect:
+        serializedVersion: 2
+        x: 26003
+        y: 0
+        width: 558
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c94e21321f7be4eb7a36c5dfc8df9d
+      internalID: 2599618314938671963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_37
+      rect:
+        serializedVersion: 2
+        x: 26727
+        y: 0
+        width: 541
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ef6c2b02119644e9dadb37f386f842
+      internalID: -7513321338661030056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_38
+      rect:
+        serializedVersion: 2
+        x: 27434
+        y: 0
+        width: 570
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a96c1035661af42a417000ad0d1062
+      internalID: -7322474626702662868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_39
+      rect:
+        serializedVersion: 2
+        x: 28139
+        y: 0
+        width: 574
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8710d91b249504e92bd9ba68a2a665
+      internalID: 2645189147746843434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L1 Boss Death_40
+      rect:
+        serializedVersion: 2
+        x: 28865
+        y: 0
+        width: 590
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b207dadb94c1e4ba01ba6b474f37a4
+      internalID: 7149717658678447805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
