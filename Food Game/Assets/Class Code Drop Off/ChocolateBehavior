@@ -1,0 +1,20 @@
+GameObject chocoBrick; //Set this reference in the inspector
+
+Vector2 brickVel1; //Set value in inspector
+Vector2 brickVel2; //Set value in inspector
+Vector2 brickVel3; //Set value in inspector
+Vector2 brickVel4; //Set value in inspector
+ 
+...
+ 
+//In the code to kill the Chocolate Bar
+GameObject brickPiece1 = Instantiate(chocoBrick, transform.position, transform.rotation);
+GameObject brickPiece2 = Instantiate(chocoBrick, transform.position, transform.rotation);
+GameObject brickPiece3 = Instantiate(chocoBrick, transform.position, transform.rotation);
+GameObject brickPiece4 = Instantiate(chocoBrick, transform.position, transform.rotation);
+ 
+brickPiece1.GetComponent<Rigidbody>().velocity = brickVel1;
+brickPiece2.GetComponent<Rigidbody>().velocity = brickVel2;
+brickPiece3.GetComponent<Rigidbody>().velocity = brickVel3;
+brickPiece4.GetComponent<Rigidbody>().velocity = brickVel4;
+Destroy(gameObject);
