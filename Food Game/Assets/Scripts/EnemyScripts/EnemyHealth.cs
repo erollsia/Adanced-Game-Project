@@ -6,12 +6,16 @@ public class EnemyHealth : MonoBehaviour
 {
     public int maxEHealth = 50;
     public int pDamage = 10;
-    int eHealth;
+    public int eHealth;
+    EnemySplit enemySplit;
+     public bool notChoc;
 
     // Start is called before the first frame update
     void Start()
     {
+        enemySplit = GetComponent<EnemySplit>();
         eHealth = maxEHealth;
+        notChoc = true;
     }
 
     // Update is called once per frame
@@ -22,10 +26,11 @@ public class EnemyHealth : MonoBehaviour
             eHealth -= pDamage;
         }
 
-        if (eHealth <= 0)
+        if (eHealth <= 0 && notChoc)
         {
             Destroy(gameObject);
         }
+        
     }
 
     void onTrigerEnter2D(Collider2D other)
