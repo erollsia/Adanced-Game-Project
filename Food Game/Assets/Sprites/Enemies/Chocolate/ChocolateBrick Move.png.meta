@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 56bbd7e5d91471c4e84651dc2518f965
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 517656731425758689
+    second: ChocolateBrick Move_0
+  - first:
+      213: -3930942250083877059
+    second: ChocolateBrick Move_1
+  - first:
+      213: -7013209488533493328
+    second: ChocolateBrick Move_2
+  - first:
+      213: 5493381797872539647
+    second: ChocolateBrick Move_3
+  - first:
+      213: 473434048702142080
+    second: ChocolateBrick Move_4
+  - first:
+      213: -1304807631008209402
+    second: ChocolateBrick Move_5
+  - first:
+      213: 917380395821673448
+    second: ChocolateBrick Move_6
+  - first:
+      213: 6518016982154690354
+    second: ChocolateBrick Move_7
+  - first:
+      213: 830223691688613350
+    second: ChocolateBrick Move_8
+  - first:
+      213: -2205116196947813421
+    second: ChocolateBrick Move_9
+  - first:
+      213: -2126518907467625772
+    second: ChocolateBrick Move_10
+  - first:
+      213: -5090343296214547632
+    second: ChocolateBrick Move_11
+  - first:
+      213: 3079899006078770419
+    second: ChocolateBrick Move_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChocolateBrick Move_0
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 126
+        width: 170
+        height: 325
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edd838fd061f2700800000000000000
+      internalID: 517656731425758689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBrick Move_1
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 129
+        width: 254
+        height: 318
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ffc2fb9dc7279c0800000000000000
+      internalID: -3930942250083877059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBrick Move_2
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 128
+        width: 319
+        height: 261
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9ef84b0231cae90800000000000000
+      internalID: -7013209488533493328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBrick Move_3
+      rect:
+        serializedVersion: 2
+        x: 3511
+        y: 126
+        width: 324
+        height: 170
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff71ac5d3a96c3c40800000000000000
+      internalID: 5493381797872539647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBrick Move_4
+      rect:
+        serializedVersion: 2
+        x: 4482
+        y: 128
+        width: 318
+        height: 254
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086577942c9f19600800000000000000
+      internalID: 473434048702142080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBrick Move_5
+      rect:
+        serializedVersion: 2
+        x: 5415
+        y: 129
+        width: 262
+        height: 318
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606698d6f5464ede0800000000000000
+      internalID: -1304807631008209402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBrick Move_6
+      rect:
+        serializedVersion: 2
+        x: 6344
+        y: 128
+        width: 169
+        height: 325
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebabd80c903bbc00800000000000000
+      internalID: 917380395821673448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBrick Move_7
+      rect:
+        serializedVersion: 2
+        x: 7247
+        y: 129
+        width: 254
+        height: 318
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f3b4d49e5a47a50800000000000000
+      internalID: 6518016982154690354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBrick Move_8
+      rect:
+        serializedVersion: 2
+        x: 8212
+        y: 129
+        width: 317
+        height: 254
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e596338c0c858b00800000000000000
+      internalID: 830223691688613350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBrick Move_9
+      rect:
+        serializedVersion: 2
+        x: 9148
+        y: 129
+        width: 323
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db1778808ad561e0800000000000000
+      internalID: -2205116196947813421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBrick Move_10
+      rect:
+        serializedVersion: 2
+        x: 10098
+        y: 128
+        width: 318
+        height: 254
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da8d3802561d72e0800000000000000
+      internalID: -2126518907467625772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBrick Move_11
+      rect:
+        serializedVersion: 2
+        x: 11085
+        y: 134
+        width: 262
+        height: 318
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053475cedb77b59b0800000000000000
+      internalID: -5090343296214547632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateBrick Move_12
+      rect:
+        serializedVersion: 2
+        x: 12084
+        y: 129
+        width: 169
+        height: 324
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc5769f3dffdba20800000000000000
+      internalID: 3079899006078770419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
