@@ -15,7 +15,7 @@ TextureImporter:
       213: -5652489993405617484
     second: Milk Spill_3
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -69,7 +69,6 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -106,8 +105,8 @@ TextureImporter:
         y: 79
         width: 154
         height: 337
-      alignment: 8
-      pivot: {x: 1, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -127,8 +126,8 @@ TextureImporter:
         y: 75
         width: 258
         height: 337
-      alignment: 8
-      pivot: {x: 1, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,8 +147,8 @@ TextureImporter:
         y: 75
         width: 337
         height: 258
-      alignment: 8
-      pivot: {x: 1, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,8 +168,8 @@ TextureImporter:
         y: 79
         width: 337
         height: 153
-      alignment: 8
-      pivot: {x: 1, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

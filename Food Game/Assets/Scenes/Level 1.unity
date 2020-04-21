@@ -567,7 +567,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7957134, y: -3.87, z: -10}
+  m_LocalPosition: {x: -3.8233328, y: -3.87, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1495,6 +1495,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3539856334271654662, guid: 1768ac7f4f1630a418bbfd85151a4b7c,
+        type: 3}
+      propertyPath: Enemy.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
     - target: {fileID: 1543910347, guid: 1768ac7f4f1630a418bbfd85151a4b7c, type: 3}
       propertyPath: pattyText
       value: 
