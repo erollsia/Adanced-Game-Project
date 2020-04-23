@@ -20,9 +20,9 @@ public class itemCollecter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pattyText.text = "Patties: " + pattyCollect + "/" + pattyReq;
-        bunText.text = "Buns: " + bunCollect + "/" + bunReq;
-        cheeseText.text = "Cheese: " + cheeseCollect + "/" + cheeseReq;
+        pattyText.text = ": " + pattyCollect + "/" + pattyReq;
+        bunText.text = ": " + bunCollect + "/" + bunReq;
+        cheeseText.text = ": " + cheeseCollect + "/" + cheeseReq;
     }
 
     // Update is called once per frame
