@@ -13,7 +13,8 @@ public class PlayerHealth : MonoBehaviour
     bool touching;
     
     public int damage = 10; //For test purposes. Will expand when enemies have individual damage values.
-
+    public AudioSource playerHurt; //playerHurt SFX
+    
     Animator animator;
 
     // Start is called before the first frame update
@@ -23,6 +24,7 @@ public class PlayerHealth : MonoBehaviour
 
         healthText.text = "HP: " + maxHealth.ToString();
         animator = GetComponent<Animator>();
+        playerHurt = GetComponent<AudioSource>(); //Player taking damage SFX
     }
 
     void Update()
@@ -54,6 +56,7 @@ public class PlayerHealth : MonoBehaviour
         if (other.gameObject.tag == "enemy")
         {
             touching = true;
+            playerHurt.Play (); //Player taking damage trigger
         }
         // When player touches pickup
         if (other.gameObject.tag == "Pick Up")
