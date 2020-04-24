@@ -121,15 +121,15 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &160744828 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 454846691645657410, guid: deec14fc9fa5a754483c4f862de17f2d,
-    type: 3}
-  m_PrefabInstance: {fileID: 454846691520664638}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &160744830 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454846691645657408, guid: deec14fc9fa5a754483c4f862de17f2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 454846691520664638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &160744831 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 454846691645657411, guid: deec14fc9fa5a754483c4f862de17f2d,
     type: 3}
   m_PrefabInstance: {fileID: 454846691520664638}
   m_PrefabAsset: {fileID: 0}
@@ -2239,10 +2239,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6b3a5101d441bc47b48056e272f9ab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitBox: {fileID: 160744828}
-  attackTime: 0
-  startAttackTime: 0
-  damageVal: 10
+  attackCd: 0.03
+  hitBox: {fileID: 160744831}
 --- !u!1 &1815740554
 GameObject:
   m_ObjectHideFlags: 0
@@ -2500,12 +2498,32 @@ PrefabInstance:
     - target: {fileID: 454846691645657410, guid: deec14fc9fa5a754483c4f862de17f2d,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 454846691645657411, guid: deec14fc9fa5a754483c4f862de17f2d,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.73
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 454846691645657411, guid: deec14fc9fa5a754483c4f862de17f2d,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 454846691645657411, guid: deec14fc9fa5a754483c4f862de17f2d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 454846691645657411, guid: deec14fc9fa5a754483c4f862de17f2d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 454846691645657411, guid: deec14fc9fa5a754483c4f862de17f2d,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.88
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deec14fc9fa5a754483c4f862de17f2d, type: 3}

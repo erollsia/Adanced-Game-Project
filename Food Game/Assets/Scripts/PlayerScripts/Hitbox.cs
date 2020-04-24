@@ -19,11 +19,12 @@ public class Hitbox : MonoBehaviour
         
     }
 
-    void OnTriggerStay2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "enemy")
+        if (collision.CompareTag("enemy"))
         {
             enemyHealth.damage();
+            Debug.Log("Hitbox triggered");
         }
 
     }

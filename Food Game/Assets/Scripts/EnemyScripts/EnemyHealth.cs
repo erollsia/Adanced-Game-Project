@@ -43,11 +43,4 @@ public class EnemyHealth : MonoBehaviour
         Destroy(gameObject);
     }
 
-    void onTrigerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            eHealth -= pDamage;
-        }
-    }
 }

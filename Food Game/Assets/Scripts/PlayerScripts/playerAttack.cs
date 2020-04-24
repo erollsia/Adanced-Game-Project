@@ -12,14 +12,10 @@ public class playerAttack : MonoBehaviour
     public float attackRange;
     public LayerMask Enemy;
 
-    EnemyHealth enemyHealth;
-    public GameObject hitBox;
-
     // Start is called before the first frame update
     private void Start()
     {
         anim = GetComponent<Animator>();
-        enemyHealth = GetComponent<EnemyHealth>();
     }
 
     // Update is called once per frame
@@ -30,9 +26,6 @@ public class playerAttack : MonoBehaviour
             if (Input.GetButton("Fire1"))
             {
                 anim.SetBool("Is_attacking", true);
-
-                //Instantiate(hitBox, transform.position = new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
-
                 
                 Collider2D[] damage = Physics2D.OverlapCircleAll(attackLocation.position, attackRange, Enemy);
 

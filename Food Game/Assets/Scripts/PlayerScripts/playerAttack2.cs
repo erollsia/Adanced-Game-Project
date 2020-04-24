@@ -6,39 +6,42 @@ public class playerAttack2 : MonoBehaviour
 
 {
     EnemyHealth enemyHealth;
-    private Animator anim;
-    public GameObject hitBox;
+    bool attacking = false;
+    float attackTimer = 0;
+    public float attackCd = 0.03f;
+    public Collider2D hitBox;
+    Animator anim;
 
-    public float attackTime;
-    public float startAttackTime;
-    public int damageVal = 10;
-    bool hasPressed;
-    Collider2D hitCollide;
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        enemyHealth = GetComponent<EnemyHealth>();
         anim = GetComponent<Animator>();
-        hasPressed = false;
-        hitCollide = hitBox.GetComponent<BoxCollider2D>();
+        enemyHealth = GetComponent<EnemyHealth>();
+        hitBox.enabled = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (hasPressed == false && Input.GetButton("Fire1"))
+        if (Input.GetButtonDown("Fire1") && !attacking)
         {
-            anim.SetBool("Is_attacking", true);
-            hitCollide.isTrigger = true;
-            //hasPressed = true;
+            attacking = true;
+            attackTimer = attackCd;
+            hitBox.enabled = true;
         }
-        else
+
+        if (attacking)
         {
-            anim.SetBool("Is_attacking", false);
-            hasPressed = false;
-            hitCollide.isTrigger = false;
+            if (attackTimer > 0)
+            {
+                attackTimer -= Time.deltaTime;
+            }
+            else
+            {
+                attacking = false;
+                hitBox.enabled = false;
+            }
         }
+
+        anim.SetBool("Is_attacking", attacking);
     }
 
 }
