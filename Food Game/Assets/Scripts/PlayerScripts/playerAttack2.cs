@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +11,7 @@ public class playerAttack2 : MonoBehaviour
     public float attackCd = 0.03f;
     public Collider2D hitBox;
     Animator anim;
-
+	public AudioSource attack;
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -26,6 +26,7 @@ public class playerAttack2 : MonoBehaviour
             attacking = true;
             attackTimer = attackCd;
             hitBox.enabled = true;
+		attack.Play();
         }
 
         if (attacking)

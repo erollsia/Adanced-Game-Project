@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -56,7 +56,7 @@ public class PlayerHealth : MonoBehaviour
         if (other.gameObject.tag == "enemy")
         {
             touching = true;
-            playerHurt.Play (); //Player taking damage trigger
+            playerHurt.Play(); //Player taking damage trigger
         }
         // When player touches pickup
         if (other.gameObject.tag == "Pick Up")
