@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -4757333570091918342}
   - component: {fileID: -3047717581435218700}
   - component: {fileID: 6193235565635260066}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bun
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -181,3 +181,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxEHealth: 50
   pDamage: 30
+  eHealth: 0
+  notChoc: 0

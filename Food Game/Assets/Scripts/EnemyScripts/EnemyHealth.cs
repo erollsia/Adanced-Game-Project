@@ -23,14 +23,24 @@ public class EnemyHealth : MonoBehaviour
     {
         if (Input.GetKeyDown("l"))
         {
-            eHealth -= pDamage;
+            damage();
         }
 
         if (eHealth <= 0 && notChoc)
         {
-            Destroy(gameObject);
+            death();
         }
         
+    }
+
+    public void damage()
+    {
+        eHealth -= pDamage;
+    }
+
+    void death()
+    {
+        Destroy(gameObject);
     }
 
     void onTrigerEnter2D(Collider2D other)

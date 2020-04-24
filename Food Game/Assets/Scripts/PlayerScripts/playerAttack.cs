@@ -11,11 +11,15 @@ public class playerAttack : MonoBehaviour
     public Transform attackLocation;
     public float attackRange;
     public LayerMask Enemy;
-    
+
+    EnemyHealth enemyHealth;
+    public GameObject hitBox;
+
     // Start is called before the first frame update
     private void Start()
     {
         anim = GetComponent<Animator>();
+        enemyHealth = GetComponent<EnemyHealth>();
     }
 
     // Update is called once per frame
@@ -26,12 +30,17 @@ public class playerAttack : MonoBehaviour
             if (Input.GetButton("Fire1"))
             {
                 anim.SetBool("Is_attacking", true);
+
+                //Instantiate(hitBox, transform.position = new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
+
+                
                 Collider2D[] damage = Physics2D.OverlapCircleAll(attackLocation.position, attackRange, Enemy);
 
                 for(int i = 0; i < damage.Length; i++)
                 {
                     Destroy(damage[i].gameObject);
                 }
+                
             }
 
             attackTime = startTimeAttack;
@@ -43,9 +52,11 @@ public class playerAttack : MonoBehaviour
         }
     }
     
+    
     private void OnDrawGizmoSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackLocation.position, attackRange);
     }
+    
 }

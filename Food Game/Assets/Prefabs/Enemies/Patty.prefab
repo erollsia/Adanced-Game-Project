@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4799093228320156955}
   - component: {fileID: 1454373335879466065}
   - component: {fileID: -1685653201063578437}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Patty
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -162,6 +162,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxEHealth: 30
   pDamage: 15
+  eHealth: 0
+  notChoc: 0
 --- !u!95 &-1685653201063578437
 Animator:
   serializedVersion: 3
