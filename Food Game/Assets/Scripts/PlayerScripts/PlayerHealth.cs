@@ -56,7 +56,6 @@ public class PlayerHealth : MonoBehaviour
         if (other.gameObject.tag == "enemy")
         {
             touching = true;
-            playerHurt.Play(); //Player taking damage trigger
         }
         // When player touches pickup
         if (other.gameObject.tag == "Pick Up")
@@ -79,6 +78,7 @@ public class PlayerHealth : MonoBehaviour
         timer = 0f;
 
         health -= damage;
+	playerHurt.Play();
 
         if (health >= 0)
         {
