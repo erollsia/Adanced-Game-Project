@@ -8,7 +8,9 @@ public class EnemyHealth : MonoBehaviour
     public int pDamage = 10;
     public int eHealth;
     EnemySplit enemySplit;
-     public bool notChoc;
+    public bool notChoc;
+    private AudioSource audioSource;
+    public AudioClip damageSound;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +18,8 @@ public class EnemyHealth : MonoBehaviour
         enemySplit = GetComponent<EnemySplit>();
         eHealth = maxEHealth;
         notChoc = true;
+        audioSource = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -23,6 +27,8 @@ public class EnemyHealth : MonoBehaviour
     {
         if (Input.GetKeyDown("l"))
         {
+            audioSource.clip = damageSound;
+            audioSource.Play();
             damage();
         }
 
