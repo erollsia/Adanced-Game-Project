@@ -1,38 +1,34 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class BossHealth : MonoBehaviour
 {
     public int maxEHealth = 50;
     public int pDamage = 10;
     public int eHealth;
-    EnemySplit enemySplit;
-
+    EnemySplit bossSplit;
     public bool notChoc;
-    public bool isHit = false;
-	public AudioSource deathSound;
-
+    private AudioSource audioSource;
+    public AudioClip damageSound;
 
     // Start is called before the first frame update
     void Start()
     {
-        enemySplit = GetComponent<EnemySplit>();
+        bossSplit = GetComponent<EnemySplit>();
         eHealth = maxEHealth;
         notChoc = true;
-	deathSound = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-       if(isHit)
-       {
-            damage();
-       }
-        
         if (Input.GetKeyDown("l"))
         {
+            audioSource.clip = damageSound;
+            audioSource.Play();
             damage();
         }
 

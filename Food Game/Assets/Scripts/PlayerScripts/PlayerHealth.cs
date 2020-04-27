@@ -14,6 +14,7 @@ public class PlayerHealth : MonoBehaviour
     
     public int damage = 10; //For test purposes. Will expand when enemies have individual damage values.
     public AudioSource playerHurt; //playerHurt SFX
+	public AudioSource playerDeath;
     
     Animator animator;
 
@@ -25,6 +26,7 @@ public class PlayerHealth : MonoBehaviour
         healthText.text = "HP: " + maxHealth.ToString();
         animator = GetComponent<Animator>();
         playerHurt = GetComponent<AudioSource>(); //Player taking damage SFX
+	playerDeath = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -38,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (health <= 0)
         {
+		playerDeath.Play();
             Debug.Log("You are dead (omae wa mou shindeiru)");
         }
 
@@ -76,10 +79,11 @@ public class PlayerHealth : MonoBehaviour
     void enemyAttack()
     {
         timer = 0f;
-
+	if (health > 0)
+	{
         health -= damage;
 	playerHurt.Play();
-
+	}
         if (health >= 0)
         {
             healthText.text = "HP: " + health.ToString();
