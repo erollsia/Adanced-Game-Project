@@ -8,7 +8,8 @@ public class EnemyHealth : MonoBehaviour
     public int pDamage = 10;
     public int eHealth;
     EnemySplit enemySplit;
-     public bool notChoc;
+    public bool notChoc;
+    public bool isHit = false;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,11 @@ public class EnemyHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       if(isHit)
+       {
+            damage();
+       }
+        
         if (Input.GetKeyDown("l"))
         {
             damage();

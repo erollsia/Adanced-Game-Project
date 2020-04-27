@@ -5,7 +5,7 @@ using UnityEngine;
 public class Hitbox : MonoBehaviour
 {
     EnemyHealth enemyHealth;
-
+    bool hit;
 
     // Start is called before the first frame update
     void Start()
@@ -16,16 +16,27 @@ public class Hitbox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (hit)
+        {
+            Debug.Log("test");
+            //enemyHealth.isHit = true;
+        }
         
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.CompareTag("enemy"))
+        if (other.gameObject.tag == "enemy")
         {
-            enemyHealth.damage();
-            Debug.Log("Hitbox triggered");
+            hit = true;
         }
+    }
 
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "enemy")
+        {
+            hit = false;
+        }
     }
 }

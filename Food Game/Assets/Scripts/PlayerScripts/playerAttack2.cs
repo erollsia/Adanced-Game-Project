@@ -26,7 +26,7 @@ public class playerAttack2 : MonoBehaviour
             attacking = true;
             attackTimer = attackCd;
             hitBox.enabled = true;
-		attack.Play();
+		    attack.Play();
         }
 
         if (attacking)
