@@ -17,11 +17,6 @@ public class Hitbox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (hit)
-        {
-            Debug.Log("test");
-            enemyHealth.isHit = true;
-        }
         
     }
 
@@ -30,14 +25,6 @@ public class Hitbox : MonoBehaviour
         if (other.gameObject.tag == "enemy")
         {
             enemyHealth.damage();
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "enemy")
-        {
-            hit = false;
         }
     }
 }
