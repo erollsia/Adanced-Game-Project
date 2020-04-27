@@ -1,0 +1,16 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class  healthpickup : MonoBehaviour
+{ 
+	public float healthItem = 0;
+	
+	private void OnTriggerEnter2D(Collider2D other){
+	
+	GetComponent<Playerhealth>
+		if(other.gameobject.tag == "healthItem"){
+			Playerhealth += 50;
+			Destroy(other.gameobject);  // Destroys Health item
+        }
+       }
