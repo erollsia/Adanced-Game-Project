@@ -26,7 +26,7 @@ public class PlayerHealth : MonoBehaviour
         healthText.text = "HP: " + maxHealth.ToString();
         animator = GetComponent<Animator>();
         playerHurt = GetComponent<AudioSource>(); //Player taking damage SFX
-	playerDeath = GetComponent<AudioSource>();
+	    playerDeath = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -40,7 +40,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (health <= 0)
         {
-		playerDeath.Play();
+		    playerDeath.Play();
             Debug.Log("You are dead (omae wa mou shindeiru)");
         }
 
@@ -79,11 +79,12 @@ public class PlayerHealth : MonoBehaviour
     void enemyAttack()
     {
         timer = 0f;
-	if (health > 0)
-	{
-        health -= damage;
-	playerHurt.Play();
-	}
+	    if (health > 0)
+	    {
+            health -= damage;
+	        playerHurt.Play();
+	    }
+
         if (health >= 0)
         {
             healthText.text = "HP: " + health.ToString();
