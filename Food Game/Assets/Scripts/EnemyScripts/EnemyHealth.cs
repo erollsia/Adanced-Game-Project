@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +9,7 @@ public class EnemyHealth : MonoBehaviour
     public int eHealth;
     EnemySplit enemySplit;
      public bool notChoc;
+	public AudioSource deathSound;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,7 @@ public class EnemyHealth : MonoBehaviour
         enemySplit = GetComponent<EnemySplit>();
         eHealth = maxEHealth;
         notChoc = true;
+	deathSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
