@@ -10,17 +10,13 @@ public class Hitbox : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        enemyHealth = GetComponent<EnemyHealth>();   
+        //enemyHealth = GetComponent<EnemyHealth>();
+        enemyHealth = GameObject.FindObjectOfType(typeof(EnemyHealth)) as EnemyHealth;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (hit)
-        {
-            Debug.Log("test");
-            //enemyHealth.isHit = true;
-        }
         
     }
 
@@ -28,15 +24,7 @@ public class Hitbox : MonoBehaviour
     {
         if (other.gameObject.tag == "enemy")
         {
-            hit = true;
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "enemy")
-        {
-            hit = false;
+            enemyHealth.damage();
         }
     }
 }

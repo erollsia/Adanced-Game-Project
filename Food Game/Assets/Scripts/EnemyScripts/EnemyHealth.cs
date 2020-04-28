@@ -20,16 +20,18 @@ public class EnemyHealth : MonoBehaviour
         enemySplit = GetComponent<EnemySplit>();
         eHealth = maxEHealth;
         notChoc = true;
-	deathSound = GetComponent<AudioSource>();
+	    deathSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-       if(isHit)
+       /*
+        if(isHit)
        {
             damage();
        }
+       */
         
         if (Input.GetKeyDown("l"))
         {
